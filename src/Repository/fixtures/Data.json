@@ -1,0 +1,302 @@
+[
+  {
+    "id": 413,
+    "name": "Italy",
+    "states": [
+      {
+        "id": 5,
+        "name": "Tyrol",
+        "counties": [
+          {
+            "id": 1,
+            "name": "T 1",
+            "taxRate": {
+              "id": 7413,
+              "code": 180,
+              "rate": 20,
+              "taxAmount": 4343434
+            }
+          },
+          {
+            "id": 2,
+            "name": "T 2",
+            "taxRate": {
+              "id": 7414,
+              "code": 181,
+              "rate": 22,
+              "taxAmount": 4434
+            }
+          },
+          {
+            "id": 3,
+            "name": "T 3",
+            "taxRate": {
+              "id": 7416,
+              "code": 183,
+              "rate": 24,
+              "taxAmount": 4355534
+            }
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Bergamo",
+        "counties": [
+          {
+            "id": 45,
+            "name": "B 1",
+            "taxRate": {
+              "id": 413,
+              "code": 280,
+              "rate": 20,
+              "taxAmount": 434343499
+            }
+          },
+          {
+            "id": 46,
+            "name": "B 2",
+            "taxRate": {
+              "id": 414,
+              "code": 281,
+              "rate": 26,
+              "taxAmount": 33
+            }
+          },
+          {
+            "id": 47,
+            "name": "B 3",
+            "taxRate": {
+              "id": 416,
+              "code": 283,
+              "rate": 30,
+              "taxAmount": 88
+            }
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Trento",
+        "counties": [
+          {
+            "id": 51,
+            "name": "Tr 1",
+            "taxRate": {
+              "id": 13,
+              "code": 380,
+              "rate": 20,
+              "taxAmount": 87
+            }
+          },
+          {
+            "id": 52,
+            "name": "Tr 2",
+            "taxRate": {
+              "id": 14,
+              "code": 381,
+              "rate": 29,
+              "taxAmount": 4
+            }
+          },
+          {
+            "id": 53,
+            "name": "Tr 3",
+            "taxRate": {
+              "id": 16,
+              "code": 383,
+              "rate": 36,
+              "taxAmount": 43215
+            }
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Rome",
+        "counties": [
+          {
+            "id": 101,
+            "name": "R 1",
+            "taxRate": {
+              "id": 3,
+              "code": 880,
+              "rate": 20,
+              "taxAmount": 4345454
+            }
+          },
+          {
+            "id": 102,
+            "name": "R 2",
+            "taxRate": {
+              "id": 4,
+              "code": 881,
+              "rate": 22,
+              "taxAmount": 4584
+            }
+          },
+          {
+            "id": 103,
+            "name": "R 3",
+            "taxRate": {
+              "id": 6,
+              "code": 883,
+              "rate": 24,
+              "taxAmount": 4378778
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "name": "Germany",
+    "states": [
+      {
+        "id": 95,
+        "name": "Saxony",
+        "counties": [
+          {
+            "id": 951,
+            "name": "S 1",
+            "taxRate": {
+              "id": 952,
+              "code": 180,
+              "rate": 10,
+              "taxAmount": 123
+            }
+          },
+          {
+            "id": 953,
+            "name": "S 2",
+            "taxRate": {
+              "id": 954,
+              "code": 181,
+              "rate": 42,
+              "taxAmount": 12
+            }
+          },
+          {
+            "id": 954,
+            "name": "S 3",
+            "taxRate": {
+              "id": 955,
+              "code": 183,
+              "rate": 54,
+              "taxAmount": 1234
+            }
+          }
+        ]
+      },
+      {
+        "id": 956,
+        "name": "Bavaria",
+        "counties": [
+          {
+            "id": 957,
+            "name": "Bv 1",
+            "taxRate": {
+              "id": 958,
+              "code": 984,
+              "rate": 20,
+              "taxAmount": 1235
+            }
+          },
+          {
+            "id": 959,
+            "name": "Bv 2",
+            "taxRate": {
+              "id": 960,
+              "code": 985,
+              "rate": 26,
+              "taxAmount": 123456
+            }
+          },
+          {
+            "id": 961,
+            "name": "Bv 3",
+            "taxRate": {
+              "id": 962,
+              "code": 984,
+              "rate": 36,
+              "taxAmount": 1234567
+            }
+          }
+        ]
+      },
+      {
+        "id": 97,
+        "name": "Hesse",
+        "counties": [
+          {
+            "id": 963,
+            "name": "H 1",
+            "taxRate": {
+              "id": 964,
+              "code": 983,
+              "rate": 40,
+              "taxAmount": 12345678
+            }
+          },
+          {
+            "id": 965,
+            "name": "H 2",
+            "taxRate": {
+              "id": 966,
+              "code": 982,
+              "rate": 49,
+              "taxAmount": 123123
+            }
+          },
+          {
+            "id": 967,
+            "name": "H 3",
+            "taxRate": {
+              "id": 968,
+              "code": 981,
+              "rate": 36,
+              "taxAmount": 123321
+            }
+          }
+        ]
+      },
+      {
+        "id": 98,
+        "name": "Thuringia",
+        "counties": [
+          {
+            "id": 969,
+            "name": "Tr 1",
+            "taxRate": {
+              "id": 970,
+              "code": 980,
+              "rate": 20,
+              "taxAmount": 123
+            }
+          },
+          {
+            "id": 102,
+            "name": "Tr 2",
+            "taxRate": {
+              "id": 971,
+              "code": 972,
+              "rate": 22,
+              "taxAmount": 123
+            }
+          },
+          {
+            "id": 103,
+            "name": "Tr 3",
+            "taxRate": {
+              "id": 973,
+              "code": 889743,
+              "rate": 24,
+              "taxAmount": 1235
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

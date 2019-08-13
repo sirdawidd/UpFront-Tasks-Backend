@@ -1,0 +1,21 @@
+version: '2'
+
+services:
+  api_phpfpm:
+    build:
+      context: ./docker/phpfpm
+    expose:
+      - 9000
+    networks:
+      - api
+    volumes:
+      - .:/var/www/api:cached
+      - ./docker/phpfpm/php.timezone.ini:/usr/local/etc/php/conf.d/timezone.ini:cached
+      - ./docker/phpfpm/php.error.ini:/usr/local/etc/php/conf.d/error.ini:cached
+      - ./docker/phpfpm/php.xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini:cached
+    working_dir: /var/www/api
+    environment:
+      - XDEBUG_CONFIG=remote_host=docker.for.mac.localhost
+networks:
+  api:
+    driver: bridge

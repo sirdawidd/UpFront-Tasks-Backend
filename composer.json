@@ -1,0 +1,27 @@
+{
+  "name": "country tax",
+  "type": "library",
+  "description": "Calculate tax statistic",
+  "keywords": [
+    "tax"
+  ],
+  "require": {
+    "php": "^7.3",
+    "slim/slim": "3.12.1",
+    "doctrine/orm": "^2.5",
+    "symfony/console": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Taxation\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Taxation\\Test\\": "test/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.4"
+  }
+}

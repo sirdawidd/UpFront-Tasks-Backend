@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+use SlimController\Slim;
+use Symfony\Component\Console\Application as Console;
+
+require_once __DIR__ . '/../vendor/autoload.php';
+/** @var Slim $app */
+// Instantiate the app
+$settings = require __DIR__ . '/../config/settings.php';
+$app = new \Slim\App($settings);
+// Set up dependencies
+$dependencies = require __DIR__ . '/../config/dependencies.php';
+$dependencies($app);
+
+$console = new Console();
+
+require __DIR__ . '/../app/command.php';
+
+$console->run();

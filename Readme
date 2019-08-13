@@ -1,0 +1,17 @@
+#requirments
+To make it simpler just php 7.3, without db, (sample data is in json file) and install composer.
+
+please run 'composer install' command
+
+#How to run
+ php run app:calculate Germany
+
+Currently in fixtures there are two params Germany and Italy
+Statistic data will be shown in console.
+
+BTW it is possible to run app in docker.
+docker-compose up -d
+enter container and run command I've put above.
+
+
+
